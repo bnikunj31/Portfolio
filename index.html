@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7509d2dfc1.js" crossorigin="anonymous"></script>
+    <title>Nikunj Techs</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <img src="img/logo.png" width="250px" alt="Portfolio logo">
+            <p>Innovate the online realm with Nikunj Techs: where creativity meets code and dreams become digital realities.</p>
+        </div>
+    </header>
+    <nav class="navigation-bar" id="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav class="responsive-navigation-bar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <i class="fa-solid fa-bars" id="nav-btn-bar" onclick="toogle()"></i>
+    <i class="fa-solid fa-xmark" id="nav-btn-x" onclick="toogleagain()"></i>
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <div class="text">
+                <h1>Welcome to my Portfolio!</h1>
+                <p>I'm Nikunj From Nikunj Tech, a passionate <span id="typing-text"></span></p>
+            </div>
+            <div class="image">
+                <img src="img/me.jpeg" alt="My image">
+            </div>
+            </section>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I'm Nikunj Bansal, a dedicated web developer/designer fueled by a passion for website development. 
+                    With 1.5 years of experience, I thrive on crafting innovative solutions and pushing boundaries in the digital realm. 
+                    My approach blends creativity, precision, and a relentless pursuit of excellence. Beyond my work, I find inspiration 
+                    in exploring new technologies and design trends, constantly seeking new avenues for growth. Let's collaborate and turn 
+                    ideas into impactful realities.
+                </p>
+                <table>
+                    <tr>
+                        <th>Qualification</th>
+                        <td>Masters Of Computer Application</td>
+                    </tr>
+                    <tr>
+                        <th>Contact Number</th>
+                        <td><a href="tel:+919729891959">+91 9729891959</a></td>
+                    </tr>
+                    <tr>
+                        <th>E-Mail</th>
+                        <td><a href="mailto:nikunj.banssal@gmail.com">nikunj.banssal@gmail.com</a></td>
+                    </tr>
+                </table>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div id="skills-container"></div>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div id="project-container">
+                    <div class="project project1"><a class="project-links" href="https://medyhub.netlify.app/">Health Store</a></div>
+                    <div class="project project2"><a class="project-links" href="https://gaming-station.netlify.app/">Gaming Template</a></div>
+                    <div class="project project3"><a class="project-links" href="">Personal Portfolio</a></div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Get in Touch</h2>
+                <div class="form-contact">
+                    <form action="" method="post" id="contactform">
+                        <table>
+                            <tr>
+                                <th>
+                                    <label for="name">Name: </label>
+                                </th>
+                                <td>
+                                    <input type="text" name="name" id="name" required/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="email">Email: </label>
+                                </th>
+                                <td>
+                                    <input type="email" name="email" id="email" required/><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="comment">Comment: </label>
+                                </th>
+                                <td>
+                                    <input type="comment" name="comment" id="comment" required/><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                </th>
+                                <td>
+                                    <input type="submit" value="Submit" id="submit">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <div class="conact-img">
+                        <img src="img/contact-img.jpg" alt="Background">
+                    </div>
+                </div>
+            </section>
+            <div class="footer">
+                <footer>
+                    <div class="footer-section footer-sec1" id="footer-services">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>Website Development</li>
+                            <li>Front-End Development</li>
+                            <li>Back-End Development</li>
+                            <li>Website Design Development</li>
+                        </ul>
+                    </div>
+                    <div class="footer-section footer-sec2">
+                        <h3>Social Links</h3>
+                        <div class="icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </footer>
+                <p>All &copy; Copyright to Nikunj Tech's are reserved by nikunj.banssal@gmail.com</p>
+            </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
